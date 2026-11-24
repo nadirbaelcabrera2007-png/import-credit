@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="utf-8">
+<html lang="es" data-theme="dark"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Import Credit · Electrodomésticos y muebles a crédito</title>
 <style>
@@ -57,6 +57,7 @@ footer b{color:var(--gold)}
 .fab{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:25;background:var(--green);color:var(--dkg);text-decoration:none;font-weight:800;border-radius:30px;padding:13px 18px;box-shadow:0 8px 22px #0007}
 .b:focus-visible,.chip:focus-visible,.cartbtn:focus-visible,.wa:focus-visible,.fab:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){.p{transition:none}}
+:root[data-theme="dark"] .b{color:#fff;border-color:#4d8fc4}
 
 .ov.on .sheet{animation:up .28s ease-out}@keyframes up{from{transform:translateY(34px);opacity:0}}
 .ask .sub{background:var(--bg);border:1px dashed var(--line);border-radius:10px;padding:8px 12px;font-size:13px;color:var(--mut);margin-bottom:6px}
@@ -173,4 +174,3 @@ function go(){
 }
 chips();grid();
 </script></body></html>
-
